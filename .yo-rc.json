@@ -1,21 +1,24 @@
 {
   "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "SPFX1",
+    "componentType": "webpart",
+    "template": "none",
+    "componentName": "SharePointOnlineFrameworkSoln_1",
     "plusBeta": false,
     "isCreatingSolution": true,
     "nodeVersion": "16.18.0",
     "sdksVersions": {
       "@microsoft/microsoft-graph-client": "3.0.2",
-      "@microsoft/teams-js": "2.4.1"
+      "@microsoft/teams-js": "2.12.0"
     },
-    "version": "1.16.1",
-    "libraryName": "a",
-    "libraryId": "38cd7fee-0da7-4ab7-88d7-e72d3fa140bd",
+    "version": "1.19.0",
+    "libraryName": "spfx-1",
+    "libraryId": "c75341e6-edf3-4de6-a0c9-fbf32b3f2b6a",
     "environment": "spo",
     "packageManager": "npm",
-    "solutionName": "A",
-    "solutionShortDescription": "A description",
+    "solutionShortDescription": "SPFX1 description",
     "skipFeatureDeployment": true,
-    "isDomainIsolated": false,
-    "componentType": "webpart"
+    "isDomainIsolated": false
   }
 }
